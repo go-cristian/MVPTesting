@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">WeatherApp</string>
+  <string name="loading">Please wait…</string>
+  <string name="general_error">There was an error getting the information</string>
+</resources>

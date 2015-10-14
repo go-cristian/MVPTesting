@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:minHeight="?android:attr/listPreferredItemHeight">
+
+  <TextView
+      android:gravity="center"
+      android:id="@+id/weather_value"
+      android:layout_height="match_parent"
+      android:layout_marginRight="@dimen/activity_horizontal_margin"
+      android:layout_width="wrap_content"
+      android:textColor="@color/colorAccent"
+      android:textStyle="bold"
+      style="@style/Base.TextAppearance.AppCompat.Large"/>
+
+  <TextView
+      android:id="@+id/weather_city"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/weather_value"
+      android:layout_width="match_parent"
+      android:textColor="@color/colorPrimary"
+      android:textStyle="bold"
+      style="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+  <TextView
+      android:id="@+id/weather_status"
+      android:layout_below="@+id/weather_city"
+      android:layout_height="match_parent"
+      android:layout_toRightOf="@+id/weather_value"
+      android:layout_width="wrap_content"/>
+
+</RelativeLayout>
