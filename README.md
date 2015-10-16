@@ -2,6 +2,13 @@
 
 We are going to describe the process of how to create your custom implementation of MVP based on a test, think about this.
 
+### Short story
+* Write a test that satifies [this](https://github.com/iyubinest/MVPTesting/blob/master/app/src/test/java/co/iyubinest/weatherapp/WeatherPresenterTest.java) basic test.
+* Write a [presenter](https://github.com/iyubinest/MVPTesting/blob/master/app/src/main/java/co/iyubinest/weatherapp/weather/ui/WeatherPresenter.java) that that handles the flow.
+* Create a [view interface](https://github.com/iyubinest/MVPTesting/blob/master/app/src/main/java/co/iyubinest/weatherapp/weather/ui/WeatherView.java).
+* write your custom data [provider](https://github.com/iyubinest/MVPTesting/blob/master/app/src/main/java/co/iyubinest/weatherapp/weather/repository/TestWeatherInteractor.java).
+
+### Long story starts with a conversation
 
 > Mr Director: "We need an application that fetch a list of items from a source (call it interweb), and then show them into a list".  
 > Mr Developer: " Ok it looks that it's a work for an app".
